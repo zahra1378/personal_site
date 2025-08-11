@@ -1,0 +1,43 @@
+.carousel_btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  transform: translateY(250%);
+}
+.carousel_btn:hover{
+    background-color: #FADA7A;
+}
+.carousel_btn span{
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: invert(1);
+}
+.carousel_btns{
+    background-color: #3674B5!important;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .carousel_btn{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media (min-width: 425px) and (max-width: 768px){
+    .carousel_btn{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+@media (max-width: 425px){
+    .carousel_btn{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .carousel_btn span{
+        width: 1rem;
+        height: 1rem;
+    }
+}

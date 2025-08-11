@@ -1,0 +1,83 @@
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.About_me{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    width: 75%;
+    border-radius: 20px;
+    background-color: #578FCA;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.About_me h3{
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    color: #FADA7A;
+    margin-bottom: 0.5rem;
+}
+.About_me p{
+    color: #F5F0CD;
+    width: 80%;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FADA7A;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    border-radius: 20px;
+}
+.skills h4{
+    font-family: "Playfair Display", serif;
+    margin-right: 2rem;
+    color: #578FCA;
+    font-size: 1.3rem;
+}
+.skills i{
+    color: #578FCA;
+    font-size: 1.5rem;
+}
+.icon_container{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #F5F0CD;
+}
+@media (max-width: 425px){
+    .About_me h3{
+        font-size: 1.5rem;
+    }
+    .About_me p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .skills h4{
+        font-size: 0.7rem;
+        margin-right: 1rem;
+    }
+    .skills i{
+        font-size: 1rem;
+    }
+    .skills{
+        padding: 0.5rem;
+    }
+    .icon_container{
+        padding: 0.3rem;
+        margin-right: 0.3rem;
+    }
+}

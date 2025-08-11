@@ -1,0 +1,20 @@
+[
+    {
+        "title":"Emoji Search App",
+        "description":"Emoji Search is a lightweight React web app to instantly search and explore emojis by keyword or symbol.Seamlessly browse and copy your favorites for use in chat, social media, or design projects.",
+        "imgs":{
+            "img1" : "./img/emoji_site.png",
+            "img2" : "./img/emoji_search.png",
+            "img3" : "./img/emoji_about.png"
+        }
+    },
+    {
+        "title":"Cryptocurrency Tracker",
+        "description":"This application fetches a live list of cryptocurrencies from the Cryptowatch API and displays their real-time prices. It also includes an instant search feature, allowing users to quickly find and monitor any cryptocurrency on demand.",
+        "imgs":{
+            "img1" : "./img/crypto_site.png",
+            "img2" : "./img/crypto_search.png",
+            "img3" : "./img/crypto_about.png"
+        }
+    }
+]

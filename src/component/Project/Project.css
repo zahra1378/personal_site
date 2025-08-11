@@ -1,0 +1,74 @@
+.Project{
+    padding: 2rem;
+}
+.Project_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Project_item{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.Projects_title{
+    padding: 2rem;
+    font-size: 3rem;
+}
+.Project_title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.Project_desc{
+    line-height: 1.5rem;
+    width: 70%;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .Project_items{
+        align-items: flex-start;
+    }
+    .Project_title{
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width: 425px) and (max-width: 768px){
+    .Project{
+        padding: 1rem;
+    }
+    .Project_items{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .Project_item{
+        width: 80%;
+    }
+}
+@media (max-width: 425px){
+    .Projects_title{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .Project{
+        padding: 1rem;
+    }
+    .Project_title{
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .Project_item{
+        width: 95%;
+        padding: 1rem;
+    }
+    .Project_desc{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        width: 85%;
+    }
+}
