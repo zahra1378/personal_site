@@ -32,12 +32,25 @@
     }
 }
 @media (max-width: 425px){
+    .carousel_slides{
+        background-color: yellow;
+        position: relative!important;
+    }
     .carousel_btn{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1rem;
+        height: 1rem;
     }
     .carousel_btn span{
         width: 1rem;
         height: 1rem;
+    }
+    .carousel_btns{
+        width: 1rem!important;
+    }
+    .carousel_btns_cont {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateY(100%);
     }
 }

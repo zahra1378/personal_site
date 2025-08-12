@@ -65,9 +65,14 @@ textarea::placeholder {
 @media (max-width: 425px){
     .input{
         font-size: 1rem!important;
+        width: 100%!important;
+        border-radius: 15px!important;
     }
     .label{
         font-size: 0.7rem!important;
+        text-wrap: wrap!important;
+        margin-bottom: 1rem;
+        border-radius: 15px!important;
     }
     .form_container{
         padding: 1rem;
@@ -77,5 +82,14 @@ textarea::placeholder {
     }
     .email_input{
         margin: 0.5rem 0;
+    }
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-group-email{
+        flex-direction: column-reverse;
     }
 }

@@ -85,6 +85,10 @@
     }
 }
 @media (max-width: 425px){
+    .Home {
+        width: 95%;
+        padding: 1rem 0;
+    }
     .Home_text h3 {
         font-size: 1.5rem;
         text-align: center;
@@ -102,5 +106,9 @@
     }
     .home_top{
         padding: 1rem;
+        flex-direction: column-reverse;
+    }
+    .Home_img{
+        margin-bottom: 2rem;
     }
 }

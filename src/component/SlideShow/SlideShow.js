@@ -3,8 +3,8 @@ import "./SlideShow.css";
 
 const SlideShow = ({ data, id }) => {
   return (
-    <div id={id} className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-indicators">
+    <div id={id} className="carousel slide carousel_slides" data-bs-ride="carousel">
+      <div className="carousel-indicators carousel_btns_cont">
         <button
           type="button"
           data-bs-target={`#${id}`}

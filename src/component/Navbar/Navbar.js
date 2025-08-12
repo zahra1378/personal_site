@@ -5,7 +5,7 @@ const Navbar = ()=>(
     <div className="Navbar">
         <div className="Navbar_container">
             <h3 className="Navbar_title">ZAHRA</h3>
-            <ul className="Nabar_list">
+            <ul className="Navbar_list">
                 <li>
                     <Link to="/">
                         <span>Home</span>

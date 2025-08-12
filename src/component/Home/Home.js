@@ -16,7 +16,7 @@ const Home = () => {
                     <button type="button" className="btn btn-outline-warning Home_btn" onClick={hireClick}>Hire me</button>
                 </div>
                 <div className="Home_img">
-                    <img src="/img/woman-developer.png" className="img-fluid" alt="HomeImage"></img>
+                    <img src="/personal_site/img/woman-developer.png" className="img-fluid" alt="HomeImage"></img>
                 </div>
             </div>
             <Project />

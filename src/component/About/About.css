@@ -59,12 +59,15 @@
     background-color: #F5F0CD;
 }
 @media (max-width: 425px){
+    .About_me{
+        width: 95%;
+    }
     .About_me h3{
         font-size: 1.5rem;
     }
     .About_me p{
-        font-size: 1rem;
-        line-height: 1.5rem;
+        font-size: 0.7rem;
+        line-height: 1.2rem;
     }
     .skills h4{
         font-size: 0.7rem;
@@ -74,7 +77,7 @@
         font-size: 1rem;
     }
     .skills{
-        padding: 0.5rem;
+        padding: 0.2rem 0.5rem;
     }
     .icon_container{
         padding: 0.3rem;

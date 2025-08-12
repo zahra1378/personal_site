@@ -14,24 +14,28 @@
     color: #FADA7A;
     font-size: 2rem;
     letter-spacing: 10px;
+    margin: 0;
+    padding: 0;
 }
-.Nabar_list{
+.Navbar_list{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.Nabar_list li{
+.Navbar_list li{
     margin-right: 2rem;
     font-size: 1.5rem;
 }
-.Nabar_list li a{
+.Navbar_list li a{
     text-decoration: none;
     display: block;
     color: #F5F0CD;
 }
 @media (min-width: 425px) and (max-width: 768px){
-    .Nabar_list li{
+    .Navbar_list li{
         font-size: 1rem;
     }
     .Navbar_container{
@@ -46,13 +50,16 @@
     .Navbar_title{
         font-size: 1rem;
     }
-    .Nabar_list li{
+    .Navbar_list li{
         font-size: 0.8rem;
-        margin-right: 1rem;
+        margin-right: 0.7rem;
+    }
+    .Navbar_list li:last-child{
+        margin-right: 0!important;
     }
     .Navbar_container{
         width: 95%;
         margin: 0 auto;
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 0.5rem;
     }
 }

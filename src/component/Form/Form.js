@@ -58,7 +58,7 @@ const Form =()=>{
                 <span className="input-group-text label" id="basic-addon1">Subject</span>
                 <input type="text" className="form-control input" placeholder="Subject" value={subject} id="subject_input" onChange={handleChangeInputSubject} aria-label="Username" aria-describedby="basic-addon1" />
             </div>
-            <div className="input-group mb-3">
+            <div className="input-group mb-3 input-group-email">
                 <input type="email" value={email} onChange={handleChangeInputEmail}  className="form-control email_input input" placeholder="Email" aria-label="Recipient’s username" aria-describedby="basic-addon2" />
                 <span className="input-group-text email_input label" id="basic-addon2">@example.com</span>
             </div>
